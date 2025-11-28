@@ -70,22 +70,37 @@
     <!--=========================
         MENU 2 START
     ==========================-->
-    <nav class="main_menu_2 main_menu d-none d-lg-block">
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-xl-9 col-lg-9">
-                    <ul class="menu_item">
-                        <li class="relative_li">
-                            <a  class="active" href="index.html">Home</a>
+    <div class="mobile_menu_area">
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                    class="fal fa-times"></i></button>
+            <div class="offcanvas-body">
+                <div class="mobile_menu_item_area">
+                    <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">menu</button>
                         </li>
-                        <li><a  href="terms_condition.html">Terms and Conditions</a></li>
-                        <li><a  href="privacy_policy.html">Privacy Policy</a></li>
                     </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="1">
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="1">
+                            <ul class="main_mobile_menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="terms_condition.html">Terms and Conditions</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
     <!--=========================
         MENU 2 END
     ==========================-->
