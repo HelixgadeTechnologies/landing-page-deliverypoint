@@ -81,7 +81,16 @@ span {
     margin: 0;
     line-height: 26px;
     font-family: var(--paraFont);
-    color: var(--paraColor);
+    color: #616161;
+}
+
+spann {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 26px;
+    font-family: var(--paraFont);
+    color: #ffffff;
 }
 
 body {
