@@ -4095,7 +4095,7 @@ footer {
 .download_2_bg {
     position: relative;
     padding: 80px;
-    background: #EAF9F1;
+    background: #EAEFED;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -7949,7 +7949,7 @@ footer {
 }
 
 .main_menu_2 {
-    background: #daf0db;
+    background: #EAEFED;
 }
 
 .home_2 .nice-select .list,
